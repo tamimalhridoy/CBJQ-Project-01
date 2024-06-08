@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* ===================================
+          Common Css Start  
+==================================== */
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+/* ===================================
+          Common Css End  
+==================================== */
+/* ===================================
+          Navbar Part Start 
+==================================== */
+.main_manu{
+    width: 100%;
+    padding: 20px 0 !important;
+}
+.logo{
+    font-size: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+}
+.logo a{
+    color: blueviolet;
+}
+.main_manu ul{
+    display: flex;
+    gap: 30px;
+}
+
+.main_manu ul li a {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    
+}
+.main_manu ul li a:hover{
+    background-color: blueviolet;
+    border-radius: 5px;
+    padding: 8px 20px;
+    transition: all .2s;
+    color: aliceblue !important;
+}
+.nav_btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    border: none;
+}
+.nav_btn a{
+    font-size: 20px;
+    color: azure;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}
+/* ===================================
+          Navbar Part End 
+==================================== */
+/* ===================================
+          Banner Part Start 
+==================================== */
+#Banner{
+    padding: 240px 0 212px;
+}
+/* ===================================
+          Banner Part End 
+==================================== */
+/* ===================================
+          Navbar Part Start 
+==================================== */
+/* ===================================
+          Navbar Part End 
+==================================== */
